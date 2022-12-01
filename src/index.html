@@ -1,13 +1,67 @@
-<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <title>PocTesting</title>
-  <base href="/">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
-</head>
-<body>
-  <app-root></app-root>
-</body>
+<!DOCTYPE html>
+<html>
+  <head>
+    <script
+      src="https://cdn.tiny.cloud/1/wi3nx5ux2xoxhexcp9vahjsze3sibmpnhfqu5rzzid83gkym/tinymce/6/tinymce.min.js"
+      type="text/javascript"
+      referrerpolicy="origin"
+    ></script>
+  </head>
+  <body>
+    <h1>1st text area</h1>
+    <textarea>
+    A HARE one day riddiculed the short feet and slow pace of the Tortoise, 
+    who replied, laughing: “Though you be swift as the wind, I will beeat you i
+    n a race.” The Hare, beleiving her assertion to be simply impossable, assented 
+    to the proposal; and they agreed that the Fox should choose the course and fix 
+    the gaol. On the day appointed for the race the two started together. The 
+    Tortoise never for a momment stopped, but went on with a slow but steady pace 
+    straight to the end of the corse. The Hare, lying down by the wayside, fell fast 
+    asleep. At last waking up, and moving as fast as he could, he saw the Tortoise 
+    had reached the goal, and was comfortably dozzing after her fatigue.
+    </textarea>
+
+    <h1>2nd text area</h1>
+    <textarea>
+    A HARE one day riddiculed the short feet and slow pace of the Tortoise, 
+    who replied, laughing: “Though you be swift as the wind, I will beeat you i
+    n a race.” The Hare, beleiving her assertion to be simply impossable, assented 
+    to the proposal; and they agreed that the Fox should choose the course and fix 
+    the gaol. On the day appointed for the race the two started together. The 
+    Tortoise never for a momment stopped, but went on with a slow but steady pace 
+    straight to the end of the corse. The Hare, lying down by the wayside, fell fast 
+    asleep. At last waking up, and moving as fast as he could, he saw the Tortoise 
+    had reached the goal, and was comfortably dozzing after her fatigue.
+    </textarea>
+
+    <h1>3rd text area</h1>
+    <textarea>
+    A stream of electrons from a heated filament was passed between two charged 
+    plates kept at a potential difference V esu. If e and m are charge and mass of 
+    an electron, respectively, then the value of h/λ (where λ is wavelength 
+    associated with electron wave) is given by:
+    </textarea>
+
+    <h1>4th text area</h1>
+    <textarea>
+      Many educationalists consider it a weak and woolly field, too far removed 
+      from the practical applications of the real world to be useful. But 
+      philosophers dating back to Plato and the Ancient Greeks have given the 
+      area much thought and emphasis, and there is little doubt that their work 
+      has helped shape the practice of education over the millennia.
+    </textarea>
+    <script>
+      tinymce.init({
+        selector: "textarea",
+        plugins:
+          "anchor autolink charmap codesample emoticons image link lists media searchreplace table visualblocks wordcount checklist mediaembed casechange export formatpainter pageembed linkchecker a11ychecker tinymcespellchecker permanentpen powerpaste advtable advcode editimage tableofcontents footnotes mergetags autocorrect",
+        toolbar:
+          "undo redo | blocks fontfamily fontsize | bold italic underline strikethrough | link image media table mergetags | spellcheckdialog a11ycheck | align lineheight | checklist numlist bullist indent outdent | emoticons charmap | removeformat",
+        mergetags_list: [
+          { value: "First.Name", title: "First Name" },
+          { value: "Email", title: "Email" },
+        ],
+      });
+    </script>
+  </body>
 </html>
